@@ -236,9 +236,10 @@ print(li)
 
 
 def reverse_l(li):
-    length=len(li)
-    for i in range (length//2)
-    li[1],li[length-i-1]=li[length-i-1],
+ ##   length=len(li)
+   ## for i in range (length//2)
+ ##   li[1],li[length-i-1]=li[length-i-1],
+    print(li[::-1]) #THIS IS THE SLICING OPERATOR W ICH WILL REDUCE ITS THE COMPLEXITY OF REVERSING THE STRING
 
 
 # In[8]:
